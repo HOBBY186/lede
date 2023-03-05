@@ -83,14 +83,6 @@ jobs:
           CONFIG_PACKAGE_bird1-ipv4-uci=y
           CONFIG_PACKAGE_bird1c-ipv4=y
           CONFIG_PACKAGE_bird1cl-ipv4=y
-          CONFIG_PACKAGE_kea-dhcp4=y
-          CONFIG_PACKAGE_odhcpd=y
-          CONFIG_PACKAGE_kmod-fou=y
-          CONFIG_PACKAGE_kmod-fou6=y
-          CONFIG_PACKAGE_kmod-gre=y
-          CONFIG_PACKAGE_kmod-gre6=y
-          CONFIG_PACKAGE_kmod-ip6-tunnel=y
-          CONFIG_PACKAGE_kmod-iptunnel6=y
           CONFIG_PACKAGE_ds-lite=y
           CONFIG_PACKAGE_map=y
           CONFIG_PACKAGE_464xlat=y
@@ -98,7 +90,6 @@ jobs:
           CONFIG_PACKAGE_6to4=y
           CONFIG_PACKAGE_6rd=y
           CONFIG_PACKAGE_ahcpd=y
-          CONFIG_PACKAGE_kea-dhcp6=y
           CONFIG_PACKAGE_kmod-nf-nat6=y
           CONFIG_PACKAGE_kmod-ebtables-ipv6=y
           CONFIG_PACKAGE_kmod-ip6table=y
