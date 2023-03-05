@@ -82,8 +82,6 @@ jobs:
           CONFIG_MTK_MUMIMO_SUPPORT=y
           CONFIG_PACKAGE_mtkiappd_DUAL_BAND=y
           CONFIG_PACKAGE_kmod-ebtables-ipv4=y
-          CONFIG_PACKAGE_kmod-ipt-ipv4options=y
-          CONFIG_PACKAGE_iptables-mod-ipv4options=y
           CONFIG_PACKAGE_luci-app-bird1-ipv4=y
           CONFIG_PACKAGE_isc-dhcp-client-ipv4=y
           CONFIG_PACKAGE_isc-dhcp-omshell-ipv4=y
@@ -100,8 +98,6 @@ jobs:
           CONFIG_PACKAGE_6to4=y
           CONFIG_PACKAGE_6rd=y
           CONFIG_PACKAGE_ahcpd=y
-          CONFIG_PACKAGE_kea-dhcp6=y
-          CONFIG_PACKAGE_kmod-nf-nat6=y
           CONFIG_PACKAGE_kmod-ebtables-ipv6=y
           CONFIG_PACKAGE_kmod-ip6table=y
           CONFIG_PACKAGE_isc-dhcp-client-ipv6=y
