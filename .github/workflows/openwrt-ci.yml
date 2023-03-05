@@ -66,7 +66,7 @@ jobs:
           # 在 cat >> .config <<EOF 到 EOF 之间粘贴你的编译配置, 需注意缩进关系
           # 例如:
           cat >> .config <<EOF
-          CONFIG_TARGET_IMAGES_GZIP=y
+          /home/runner/work/lede/lede/.config:40: *** missing separator CONFIG_TARGET_IMAGES_GZIP=y
           CONFIG_KERNEL_BUILD_USER="OpenWrt-CI"
           CONFIG_KERNEL_BUILD_DOMAIN="Azure"
           CONFIG_TARGET_ramips=y
@@ -82,6 +82,7 @@ jobs:
           CONFIG_MTK_MUMIMO_SUPPORT=y
           CONFIG_PACKAGE_mtkiappd_DUAL_BAND=y
           CONFIG_PACKAGE_kmod-ebtables-ipv4=y
+          CONFIG_PACKAGE_luci-app-bird1-ipv4=y
           CONFIG_PACKAGE_isc-dhcp-client-ipv4=y
           CONFIG_PACKAGE_isc-dhcp-omshell-ipv4=y
           CONFIG_PACKAGE_isc-dhcp-relay-ipv4=y
@@ -92,6 +93,7 @@ jobs:
           CONFIG_PACKAGE_6in4=y
           CONFIG_PACKAGE_6to4=y
           CONFIG_PACKAGE_6rd=y
+          CONFIG_PACKAGE_ahcpd=y
           CONFIG_PACKAGE_kmod-ebtables-ipv6=y
           CONFIG_PACKAGE_kmod-ip6table=y
           CONFIG_PACKAGE_isc-dhcp-client-ipv6=y
@@ -104,60 +106,7 @@ jobs:
           CONFIG_PACKAGE_isc-dhcp-server-ipv6=y
           CONFIG_PACKAGE_generate-ipv6-address=y
           CONFIG_PACKAGE_odhcpd-ipv6only=y
-          CONFIG_PACKAGE_thc-ipv6-address6=y
-          CONFIG_PACKAGE_thc-ipv6-alive6=y
-          CONFIG_PACKAGE_thc-ipv6-covert-send6=y
-          CONFIG_PACKAGE_thc-ipv6-covert-send6d=y
-          CONFIG_PACKAGE_thc-ipv6-denial6=y
-          CONFIG_PACKAGE_thc-ipv6-detect-new-ip6=y
-          CONFIG_PACKAGE_thc-ipv6-detect-sniffer6=y
-          CONFIG_PACKAGE_thc-ipv6-dnsdict6=y
-          CONFIG_PACKAGE_thc-ipv6-dnsrevenum6=y
-          CONFIG_PACKAGE_thc-ipv6-dos-new-ip6=y
-          CONFIG_PACKAGE_thc-ipv6-dump-router6=y
-          CONFIG_PACKAGE_thc-ipv6-exploit6=y
-          CONFIG_PACKAGE_thc-ipv6-fake-advertise6=y
-          CONFIG_PACKAGE_thc-ipv6-fake-dhcps6=y  
-          CONFIG_PACKAGE_thc-ipv6-fake-dns6d=y
-          CONFIG_PACKAGE_thc-ipv6-fake-dnsupdate6=y  
-          CONFIG_PACKAGE_thc-ipv6-fake-mipv6=y
-          CONFIG_PACKAGE_thc-ipv6-fake-mld26=y
-          CONFIG_PACKAGE_thc-ipv6-fake-mld6=y 
-          CONFIG_PACKAGE_thc-ipv6-fake-mldrouter6=y
-          CONFIG_PACKAGE_thc-ipv6-fake-router26=y 
-          CONFIG_PACKAGE_thc-ipv6-fake-router6=y 
-          CONFIG_PACKAGE_thc-ipv6-fake-solicitate6=y 
-          CONFIG_PACKAGE_thc-ipv6-flood-advertise6=y 
-          CONFIG_PACKAGE_thc-ipv6-flood-dhcpc6=y 
-          CONFIG_PACKAGE_thc-ipv6-flood-mld26=y 
-          CONFIG_PACKAGE_thc-ipv6-flood-mld6=y 
-          CONFIG_PACKAGE_thc-ipv6-flood-mldrouter6=y 
-          CONFIG_PACKAGE_thc-ipv6-flood-router26=y 
-          CONFIG_PACKAGE_thc-ipv6-flood-router6=y 
-          CONFIG_PACKAGE_thc-ipv6-flood-solicitate6=y 
-          CONFIG_PACKAGE_thc-ipv6-fragmentation6=y 
-          CONFIG_PACKAGE_thc-ipv6-fuzz-dhcpc6=y 
-          CONFIG_PACKAGE_thc-ipv6-fuzz-dhcps6=y 
-          CONFIG_PACKAGE_thc-ipv6-fuzz-ip6=y 
-          CONFIG_PACKAGE_thc-ipv6-implementation6=y 
-          CONFIG_PACKAGE_thc-ipv6-implementation6d=y 
-          CONFIG_PACKAGE_thc-ipv6-inverse-lookup6=y 
-          CONFIG_PACKAGE_thc-ipv6-kill-router6=y
-          CONFIG_PACKAGE_thc-ipv6-ndpexhaust6=y
-          CONFIG_PACKAGE_thc-ipv6-node-query6=y 
-          CONFIG_PACKAGE_thc-ipv6-parasite6=y 
-          CONFIG_PACKAGE_thc-ipv6-passive-discovery6=y 
-          CONFIG_PACKAGE_thc-ipv6-randicmp6=y 
-          CONFIG_PACKAGE_thc-ipv6-redir6=y 
-          CONFIG_PACKAGE_thc-ipv6-rsmurf6=y 
-          CONFIG_PACKAGE_thc-ipv6-sendpees6=y 
-          CONFIG_PACKAGE_thc-ipv6-sendpeesmp6=y 
-          CONFIG_PACKAGE_thc-ipv6-smurf6=y 
-          CONFIG_PACKAGE_thc-ipv6-thcping6=y 
-          CONFIG_PACKAGE_thc-ipv6-toobig6=y 
-          CONFIG_PACKAGE_thc-ipv6-trace6=y 
           CONFIG_PACKAGE_odhcp6c=y
-          
           EOF
           #
           # ===============================================================
