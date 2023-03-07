@@ -71,7 +71,16 @@ jobs:
           CONFIG_PACKAGE_luci-theme-argon-mod=y   
           CONFIG_MTK_MUMIMO_SUPPORT=y
           CONFIG_PACKAGE_mtkiappd_DUAL_BAND=y
-          
+          CONFIG_PACKAGE_ds-lite=y
+          CONFIG_PACKAGE_map=y
+          CONFIG_PACKAGE_464xlat=y
+          CONFIG_PACKAGE_6in4=y
+          CONFIG_PACKAGE_6to4=y
+          CONFIG_PACKAGE_6rd=y
+          CONFIG_PACKAGE_odhcp6c=y
+          CONFIG_PACKAGE_odhcpd=y
+          CONFIG_PACKAGE_odhcpd-ipv6only=y
+          CONFIG_PACKAGE_dhcpcd=y
           EOF
           #
           # ===============================================================
