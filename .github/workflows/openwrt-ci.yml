@@ -57,13 +57,6 @@ jobs:
           # 例如:
           cat >> .config <<EOF
           #
-# Automatically generated file; DO NOT EDIT.
-# OpenWrt Configuration
-#
-CONFIG_MODULES=y
-CONFIG_HAVE_DOT_CONFIG=y
-# CONFIG_HOST_OS_LINUX is not set
-CONFIG_HOST_OS_MACOS=y
 # CONFIG_TARGET_airoha is not set
 # CONFIG_TARGET_sunxi is not set
 # CONFIG_TARGET_meson is not set
