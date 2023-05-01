@@ -1753,15 +1753,15 @@ jobs:
           # CONFIG_ZABBIX_MYSQL is not set
           CONFIG_ZABBIX_POSTGRESQL=y
           # CONFIG_ZABBIX_SQLITE is not set
-          CONFIG_PACKAGE_zabbix-proxy-gnutls=y
-          CONFIG_PACKAGE_zabbix-proxy-openssl=y
-          CONFIG_PACKAGE_zabbix-sender=y
-          CONFIG_PACKAGE_zabbix-sender-gnutls=y
-          CONFIG_PACKAGE_zabbix-sender-openssl=y
-          CONFIG_PACKAGE_zabbix-server=y
-          CONFIG_PACKAGE_zabbix-server-frontend=y
-          CONFIG_PACKAGE_zabbix-server-gnutls=y
-          CONFIG_PACKAGE_zabbix-server-openssl=y
+          # CONFIG_PACKAGE_zabbix-proxy-gnutls is not set
+          # CONFIG_PACKAGE_zabbix-proxy-openssl is not set
+          # CONFIG_PACKAGE_zabbix-sender is not set
+          # CONFIG_PACKAGE_zabbix-sender-gnutls is not set
+          # CONFIG_PACKAGE_zabbix-sender-openssl is not set
+          # CONFIG_PACKAGE_zabbix-server is not set
+          # CONFIG_PACKAGE_zabbix-server-frontend is not set
+          # CONFIG_PACKAGE_zabbix-server-gnutls is not set
+          # CONFIG_PACKAGE_zabbix-server-openssl is not set
           # end of Zabbix
           
           #
@@ -7286,7 +7286,6 @@ jobs:
           # CONFIG_PACKAGE_fontconfig is not set
           # end of Font-Utils
           # end of Xorg
-          
           EOF
           #
           # ===============================================================
